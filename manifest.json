@@ -1,16 +1,11 @@
 {
   "manifest_version": 3,
   "name": "ProFront Performance Audit",
-  "version": "1.0",
-  "description": "Yerel performans ölçümü ve kod kalitesi denetleyicisi.",
+  "version": "1.0.0",
+  "description": "Real-time performance and code quality audit tool for developers[cite: 1].",
   "permissions": ["activeTab", "scripting"],
   "action": {
-    "default_popup": "popup.html"
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
-    }
-  ]
+    "default_popup": "popup.html",
+    "default_icon": "icon128.png"
+  }
 }
