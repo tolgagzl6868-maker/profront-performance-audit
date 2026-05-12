@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 350px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f4f7f9; }
+    .header { background: #007bff; color: white; padding: 15px; text-align: center; font-weight: bold; font-size: 18px; }
+    .container { padding: 15px; }
+    .card { background: white; border-radius: 8px; padding: 12px; margin-bottom: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .title { font-size: 14px; color: #555; margin-bottom: 8px; border-bottom: 1px solid #eee; padding-bottom: 4px; font-weight: bold;}
+    .stat { display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 13px; }
+    .value { font-weight: bold; color: #007bff; }
+    button { width: 100%; background: #28a745; color: white; border: none; padding: 12px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: 0.3s; }
+    button:hover { background: #218838; }
+    .issue { font-size: 12px; color: #d9534f; background: #fdf7f7; padding: 5px; border-radius: 4px; margin-top: 5px; border-left: 3px solid #d9534f; }
+    #results { margin-top: 15px; }
+  </style>
+</head>
+<body>
+  <div class="header">Audit Engine v1.0</div>
+  <div class="container">
+    <button id="scanBtn">ANALİZİ BAŞLAT</button>
+    <div id="results"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
